@@ -25,6 +25,6 @@ jobs:
       run: |
         python train.py
 
-    - name: Run Tests
+    - name: Run Model Tests
       run: |
         pytest
